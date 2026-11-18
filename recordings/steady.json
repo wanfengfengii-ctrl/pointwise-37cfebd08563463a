@@ -1,0 +1,12 @@
+{
+  "source_id": "line-2/optical-07",
+  "control": [
+    {"tick": 0, "kind": "open", "exposure_id": "C"},
+    {"tick": 5, "kind": "close", "exposure_id": "C"}
+  ],
+  "samples": [
+    {"tick": 1, "event_id": "early-c", "value": 7},
+    {"tick": 2, "event_id": "late-c", "value": 7}
+  ],
+  "seal": {"kind": "seal", "latch_count": 1}
+}

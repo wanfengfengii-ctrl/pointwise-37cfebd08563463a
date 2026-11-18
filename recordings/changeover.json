@@ -1,0 +1,15 @@
+{
+  "source_id": "line-2/optical-07",
+  "control": [
+    {"tick": 0, "kind": "open", "exposure_id": "A", "event_id": "open-a"},
+    {"tick": 1, "kind": "close", "exposure_id": "A", "event_id": "close-a"},
+    {"tick": 1, "kind": "open", "exposure_id": "B", "event_id": "open-b"},
+    {"tick": 3, "kind": "close", "exposure_id": "B", "event_id": "close-b"}
+  ],
+  "samples": [
+    {"tick": 1, "event_id": "r", "value": 17},
+    {"tick": 1, "event_id": "s", "value": 23},
+    {"tick": 2, "event_id": "t", "value": 31}
+  ],
+  "seal": {"kind": "seal", "latch_count": 2}
+}
